@@ -1,0 +1,41 @@
+
+.block {
+    width: 400px;
+    padding: 20px 0;
+    margin: auto;
+
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    margin: 0 auto;
+}
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input_data {
+    border-radius: 7px;
+    padding: 12px 20px;
+
+    margin-bottom: 25px;
+}
+
+.btn_entry {
+    width: 100%;
+    padding: 15px;
+
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(113, 113, 237);
+    
+    color: white;
+
+    cursor: pointer;
+}
